@@ -70,10 +70,10 @@ export function Hero() {
 
           <dl className="mt-14 grid grid-cols-2 sm:grid-cols-4 gap-6 max-w-2xl">
             {[
-              ["250+ MW", "Installed"],
-              ["1200+", "Projects"],
-              ["19+", "States"],
-              ["12+", "Years"],
+              ["200+ KW", "Installed"],
+              ["50+", "Projects"],
+              ["10+", "Solutions"],
+              ["2+", "Years"],
             ].map(([v, k]) => (
               <div key={k}>
                 <dt className="font-display text-2xl sm:text-3xl font-bold text-white">{v}</dt>

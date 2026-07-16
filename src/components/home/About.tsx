@@ -11,11 +11,12 @@ const pillars = [
 ];
 
 const timeline = [
-  ["2013", "Founded in Hyderabad"],
-  ["2016", "First 5 MW ground-mount plant commissioned"],
-  ["2019", "Crossed 100 MW cumulative installations"],
-  ["2022", "Launched BESS & EV charging division"],
-  ["2024", "Expanded to 19 states, 250+ MW installed"],
+  ["01", "Free Consultation & Energy Assessment"],
+  ["02", "Site Survey & Feasibility Study"],
+  ["03", "Customized Solar System Design"],
+  ["04", "Procurement of Tier-1 Components"],
+  ["05", "Installation & Commissioning"],
+  ["06", "Monitoring & Lifetime Support"],
 ];
 
 export function About() {

@@ -39,7 +39,7 @@ function ContactPage() {
               { icon: MessageCircle, label: "WhatsApp", value: site.whatsapp },
               { icon: Mail, label: "Email", value: site.email },
               { icon: MapPin, label: "Head Office", value: site.address },
-              { icon: Building2, label: "Service Area", value: "19 States · 120+ Cities · Pan-India" },
+              
             ].map((c, i) => (
               <motion.div key={c.label} initial={{opacity:0,x:-20}} whileInView={{opacity:1,x:0}} viewport={{once:true}} transition={{delay:i*0.06}} className="flex items-start gap-4 rounded-xl bg-card border border-border p-5">
                 <div className="flex h-11 w-11 items-center justify-center rounded-lg gradient-brand shrink-0">
@@ -55,7 +55,7 @@ function ContactPage() {
             <div className="rounded-2xl overflow-hidden border border-border h-72">
               <iframe
                 title="Bhava Solar Energy office map"
-                src="https://www.google.com/maps?q=Hyderabad,India&output=embed"
+                src="https://www.google.com/maps?q=New+Delhi,India&output=embed"
                 className="w-full h-full"
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"

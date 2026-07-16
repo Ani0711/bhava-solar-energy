@@ -2,9 +2,44 @@ import { motion } from "framer-motion";
 import { Star, Quote } from "lucide-react";
 
 const testimonials = [
-  { name: "Ramesh Kulkarni", role: "COO, Sanjeevani Textiles", body: "Bhava delivered our 2.4 MW rooftop plant in 52 days, 8 days ahead of schedule. Generation is 6% above design PR.", rating: 5 },
-  { name: "Dr. Priya Menon", role: "Director, Aster Hospitals", body: "Their O&M team's remote monitoring caught a string fault before it took down 40 kW. Truly proactive partners.", rating: 5 },
-  { name: "Arvind Reddy", role: "MD, GreenAgro Cold Storage", body: "Hybrid solar+DG microgrid slashed our diesel bill by 74%. Payback in 3.8 years — exactly as promised.", rating: 5 },
+ 
+  {
+    name: "Ram Kumar",
+    role: "10 kW Residential Solar Customer",
+    body: "My solar connection process was smooth from start to finish. The installation team was experienced, my net-metering connection was completed within 12 days, and I received the government subsidy on time.",
+    rating: 5,
+  },
+  {
+    name: "Saurabh Kushwaha",
+    role: "On-Grid Solar Customer",
+    body: "Thank you, Bhava Solar Energy, for the excellent installation of our on-grid solar plant. The team delivered professional service, timely execution, and complete support throughout the project.",
+    rating: 5,
+  },
+ 
+  {
+    name: "Jeetu Netram",
+    role: "Sheet Roof Solar Installation",
+    body: "Excellent service and highly skilled installation team. They completed my sheet-roof solar structure with proper waterproofing and great attention to quality.",
+    rating: 5,
+  },
+  {
+    name: "Mithlesh",
+    role: "Residential Solar Customer",
+    body: "Bhava Solar Energy provided excellent consultation and installation services. They also guided me through the entire government subsidy process without any hassle.",
+    rating: 5,
+  },
+  {
+    name: "Jameel Hashmi",
+    role: "Residential Solar Customer",
+    body: "The installation service was excellent. The team was professional, efficient, and completed the work to a high standard. Highly recommended.",
+    rating: 5,
+  },
+  {
+    name: "Chandra Shekhar Gupta",
+    role: "Residential Solar Customer",
+    body: "Very good service with excellent workmanship. The project was completed professionally, and I would definitely recommend Bhava Solar Energy.",
+    rating: 5,
+  },
 ];
 
 const partners = ["Waaree", "Adani Solar", "Tata Power Solar", "Sungrow", "Growatt", "Solis", "Huawei", "ABB", "Schneider", "Luminous", "Exide", "Amara Raja"];
@@ -16,7 +51,7 @@ export function Testimonials() {
         <div className="max-w-2xl">
           <span className="text-xs uppercase tracking-widest text-brand font-semibold">Client Voices</span>
           <h2 className="mt-3 font-display text-4xl md:text-5xl font-bold">
-            Trusted by <span className="gradient-text">India's finest</span>
+            Trusted by <span className="gradient-text">People</span>
           </h2>
         </div>
 

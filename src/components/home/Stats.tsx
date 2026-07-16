@@ -14,12 +14,11 @@ function Counter({ value, suffix = "", prefix = "" }: { value: number; suffix?: 
 }
 
 const stats = [
-  { value: 250, suffix: "+ MW", label: "Installed Capacity" },
-  { value: 1200, suffix: "+", label: "Projects Completed" },
-  { value: 850, suffix: "+", label: "Happy Clients" },
-  { value: 120, suffix: "+", label: "Cities Served" },
-  { value: 12, suffix: "+", label: "Years Experience" },
-  { value: 180, suffix: "+", label: "Engineers On Ground" },
+  { value: 200, suffix: "+ KW", label: "Installed Capacity" },
+  { value: 50, suffix: "+", label: "Projects Completed" },
+  { value: 100, suffix: "+", label: "Happy Clients" },
+  { value: 2, suffix: "+", label: "Years Experience" },
+  { value: 60, suffix: "+", label: "Engineers On Ground" },
 ];
 
 export function Stats() {

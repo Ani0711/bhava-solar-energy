@@ -31,7 +31,7 @@ function AboutPage() {
       <PageHeader
         eyebrow="About Bhava"
         title={<>Engineering the <span className="gradient-text">energy transition</span></>}
-        subtitle="Since 2013, we've partnered with India's most demanding developers, manufacturers, and governments to deliver renewable assets that outperform their PPAs."
+        subtitle="Since 2022, we've partnered with India's most demanding developers, manufacturers, and governments to deliver renewable assets that outperform their PPAs."
       />
       <Stats />
       <About />
