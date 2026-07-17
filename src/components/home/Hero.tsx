@@ -3,6 +3,7 @@ import { Link } from "@tanstack/react-router";
 import { ArrowRight, Calculator, PhoneCall, Sparkles } from "lucide-react";
 import heroImg from "@/assets/hero-solar.jpg";
 import { Button } from "@/components/ui/button";
+import logoAsset from "@/assets/bhava-logo.png";
 
 export function Hero() {
   return (
@@ -41,6 +42,16 @@ export function Hero() {
           transition={{ duration: 0.8 }}
           className="max-w-3xl"
         >
+        <motion.img
+            src={logoAsset}
+            alt="Bhava Solar Energy logo"
+            width={140}
+            height={140}
+            initial={{ opacity: 0, scale: 0.85 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 0.7 }}
+            className="mb-6 h-24 w-24 md:h-32 md:w-32 rounded-2xl bg-white/95 p-3 shadow-glow backdrop-blur object-contain"
+          />  
           <div className="inline-flex items-center gap-2 rounded-full glass px-4 py-1.5 text-xs uppercase tracking-widest text-white">
             <Sparkles className="h-3.5 w-3.5 text-brand" />
             India's Trusted Renewable EPC

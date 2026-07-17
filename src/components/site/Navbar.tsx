@@ -4,6 +4,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X, Sun, Moon, Zap } from "lucide-react";
 import { nav, site } from "@/lib/site";
 import { Button } from "@/components/ui/button";
+import logoAsset from "@/assets/bhava-logo.png"
 
 export function Navbar() {
   const [open, setOpen] = useState(false);
@@ -38,14 +39,17 @@ export function Navbar() {
       }`}
     >
       <div className="container-px mx-auto flex h-16 max-w-7xl items-center justify-between md:h-20">
-        <Link to="/" className="flex items-center gap-2 group">
-          <div className="relative">
-            <div className="absolute inset-0 rounded-lg gradient-brand blur-md opacity-60 group-hover:opacity-100 transition" />
-            <div className="relative rounded-lg gradient-brand p-2">
-              <Zap className="h-5 w-5 text-white" strokeWidth={2.5} />
-            </div>
-          </div>
-          <div className="flex flex-col leading-none">
+        <Link to="/" className="flex items-center gap-3 group" aria-label={site.name}>
+
+          
+            <img
+            src={logoAsset}
+            alt="Bhava Solar Energy"
+            width={48}
+            height={48}
+            className=" h-10 w-10 md:h-12 md:w-12 object-contain rounded-md bg-white/95 p-1 shadow-elegant transition group-hover:scale-105"
+          />
+          <div className=" sm:flex flex-col leading-none">
             <span className="font-display text-base font-bold tracking-tight md:text-lg">
               Bhava <span className="gradient-text">Solar</span>
             </span>
